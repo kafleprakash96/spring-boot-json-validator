@@ -1,0 +1,70 @@
+{
+  "user": {
+    "id": 98765,
+    "profile": {
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "contact": {
+        "phone": "+1234567890",
+        "fax": "+0987654321"
+      },
+      "birthdate": "1990-05-15",
+      "preferences": {
+        "newsletter": false,
+        "preferences": {
+          "communication": ["email", "sms"],
+          "theme": "dark"
+        }
+      }
+    },
+    "address": {
+      "home": {
+        "street": "456 Elm St",
+        "city": "Chicago",
+        "postalCode": "67890",
+        "country": "US"
+      },
+      "work": {
+        "street": "789 Oak St",
+        "city": "Rockford",
+        "postalCode": "12345",
+        "country": "US"
+      }
+    },
+    "roles": [
+      {
+        "roleName": "USER",
+        "permissions": ["READ", "WRITE"]
+      },
+      {
+        "roleName": "MODERATOR",
+        "permissions": ["READ", "WRITE", "DELETE"]
+      }
+    ],
+    "activities": [
+      {
+        "activityId": "act001",
+        "type": "login",
+        "timestamp": "2024-09-06T09:00:00Z",
+        "details": {
+          "location": "New York",
+          "device": "Laptop"
+        }
+      },
+      {
+        "activityId": "act002",
+        "type": "purchase",
+        "timestamp": "2024-09-06T10:30:00Z",
+        "details": {
+          "product": "Laptop",
+          "amount": 1200.00
+        }
+      }
+    ],
+    "metadata": {
+      "version": "2.1",
+      "lastUpdated": "2024-09-06T12:00:00Z",
+      "source": "WebApp"
+    }
+  }
+}
